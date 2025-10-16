@@ -1,0 +1,16 @@
+{
+  "name": "fcc-personal-portfolio-webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch --style=compressed --no-source-map scss/:dist/css/",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Ralitsa Taylor",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass": "^1.93.0"
+  }
+}
